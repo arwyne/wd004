@@ -4,7 +4,7 @@ let secondVal = 10;
 firstVal += 5;
 console.log(firstVal);
 
-firstVal = firstVal - secondVal;
+firstVal -= secondVal;
 console.log("the difference between the 2 values is " + firstVal);
 
 secondVal += 20
