@@ -1,7 +1,7 @@
 // create a monthInput variable
 // that will accept 1-12 as its value
 let monthInput = 5;
-let dayInput = 32;
+let dayInput = 23;
 
 const months = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
