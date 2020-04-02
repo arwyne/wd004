@@ -3,9 +3,18 @@ let oddSum = 0;
 let x;
 
 for(x = 0; x <= 50 ; x++) {
-	if(x%2 == 0) {
+	// console.log('this is the value of x: ' + x);
+	if(x%2 === 0) {
+		// this code block will run if the value of x is even
+		// console.log('the number is an even number ' + x);
+		// evenSum = (0+2+4+6+8+10+12);
+		// evenSum = evenSum + x;
 		evenSum += x;
 	} else {
+		// this code block will run if the value of x is odd
+		// console.log('this number is an odd number ' + x);
+		// oddSum = (0+1+3+5+7+9+11);
+		// oddSum = oddSum + x;
 		oddSum += x;
 	}
 }
